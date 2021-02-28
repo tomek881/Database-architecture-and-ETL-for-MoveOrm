@@ -1,7 +1,6 @@
 USE [MoveOrm]
 GO
 
-/****** Object:  Table [dbo].[Order_Tax]    Script Date: 2/28/2021 3:48:02 PM ******/
 SET ANSI_NULLS ON
 GO
 
