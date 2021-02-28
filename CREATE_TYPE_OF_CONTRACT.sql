@@ -1,6 +1,7 @@
 USE [MoveOrm]
 GO
 
+/****** Object:  Table [dbo].[Type_Of_Contract]    Script Date: 2/28/2021 2:56:06 PM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -9,7 +10,7 @@ GO
 
 CREATE TABLE [dbo].[Type_Of_Contract](
 	[Contract_ID] [int] IDENTITY(1,1) NOT NULL,
-	[Name] [nchar](10) NOT NULL,
+	[Name] [nvarchar](200) NOT NULL,
  CONSTRAINT [PK_Type_Of_Contract] PRIMARY KEY CLUSTERED 
 (
 	[Contract_ID] ASC
